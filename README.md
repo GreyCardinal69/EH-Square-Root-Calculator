@@ -26,8 +26,6 @@ remainder -= 1;
 substr++;
 
 while !substr_larger { // node 11
-	var temp3;
-	var temp4;
 
 	while substr { // node 12
 		substr--;
