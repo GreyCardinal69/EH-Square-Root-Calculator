@@ -16,6 +16,13 @@ The pre made Number to get the square root of is set at loot/Number To Calculate
 ![Screenshot 2023-05-13 174843](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/7557373b-49fe-43cf-b8f0-3f0918b04e51)
 ![Screenshot 2023-05-13 174910](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/1ddf0993-1719-43f2-82ba-99e0af5efb90)
 
+Some Examples:
+
+![Screenshot 2023-05-13 152827](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/30be1830-b740-4b59-9301-126f31997e8c)
+![Screenshot 2023-05-13 154226](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/02dda0ab-e837-4c99-b60a-b6f2569ae823)
+![Screenshot 2023-05-13 162508](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/fd58f545-e0ec-42fd-a00d-08e232ec1c1c)
+
+
 The following is the pseudo code of the calculator ( covers most of how it works. )
 
 ```cs
