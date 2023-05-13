@@ -1,5 +1,5 @@
 # EH-Square-Root-Calculator
-A square root calculator made with Event Horizon game quests.![Screenshot 2023-05-13 174910](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/d44b904d-c7be-46ee-a242-9607917e61a5)
+A square root calculator made with Event Horizon game quests.
 
 To start the quest you need to take a faction mission from any faction.
 
