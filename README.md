@@ -5,6 +5,11 @@ To start the quest you need to take a faction mission from any faction.
 
 The option "Clear Number To Calculate" sets the Number to calculate to 0.
 
+Since Quests support only whole numbers, the mantissa of the square root is not calculated.
+For example the square root of 100.000 is 316.2277.... But it will show only 316.
+Due to the constraints of the Quest system, slow game code and the simple lack of +, -, *, / and other basic operators, the calculator is quite slow.
+For example to calculate the square root of 100.000 it requires 26 minutes on a high end laptop
+
 ![Screenshot 2023-05-13 174800](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/13956770-bdd5-43b8-9ba9-73fe8d2b30f1)
 ![Screenshot 2023-05-13 174843](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/7557373b-49fe-43cf-b8f0-3f0918b04e51)
 ![Screenshot 2023-05-13 174910](https://github.com/GreyCardinal69/EH-Square-Root-Calculator/assets/50517794/1ddf0993-1719-43f2-82ba-99e0af5efb90)
