@@ -1,0 +1,9 @@
+{
+  "ItemType": 20,
+  "Id": 9990202,
+  "Name": "Number To Calculate",
+  "Description": "The number to calculate the square root of, equal to the amount of this item in cargo.",
+  "Icon": "retreat_icon.png",
+  "Color": "#00FF90",
+  "Price": 1
+}

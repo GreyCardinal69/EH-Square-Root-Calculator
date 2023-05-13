@@ -1,0 +1,465 @@
+{
+  "ItemType": 15,
+  "Id": 9992224,
+  "Name": "SQRT CALCULATOR ",
+  "QuestType": 1,
+  "Requirement": {
+    "Type": 3,
+    "Requirements": [
+      {
+        "Type": 10,
+        "ItemId": 9992224
+      }
+    ]
+  },
+  "Nodes": [
+    {
+      "Id": 100,
+      "Type": 35,
+      "DefaultTransition": 2,
+      "Loot": 999990021
+    },
+    {
+      "Id": 2,
+      "Type": 15,
+      "Message": "Segment 1",
+      "DefaultTransition": 6,
+      "Transitions": [
+        {
+          "TargetNode": 3,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 9990202,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Type": 35,
+      "DefaultTransition": 4,
+      "Loot": 942914
+    },
+    {
+      "Id": 4,
+      "Type": 35,
+      "DefaultTransition": 5,
+      "Loot": 1285152
+    },
+    {
+      "Id": 5,
+      "Type": 36,
+      "DefaultTransition": 2,
+      "Loot": 12350003
+    },
+    {
+      "Id": 6,
+      "Type": 15,
+      "Message": "Segment 2",
+      "DefaultTransition": 9,
+      "Transitions": [
+        {
+          "TargetNode": 7,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 215125,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Type": 36,
+      "DefaultTransition": 8,
+      "Loot": 1285152
+    },
+    {
+      "Id": 8,
+      "Type": 35,
+      "DefaultTransition": 6,
+      "Loot": 12350003
+    },
+    {
+      "Id": 9,
+      "Type": 36,
+      "DefaultTransition": 11,
+      "Loot": 942914
+    },
+    {
+      "Id": 11,
+      "Type": 15,
+      "Message": "Segment 3",
+      "DefaultTransition": 600,
+      "Transitions": [
+        {
+          "TargetNode": 120,
+          "Requirement": {
+            "Type": 3,
+            "Requirements": [
+              {
+                "Type": 25,
+                "ItemId": 2559992,
+                "MinValue": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Type": 15,
+      "Message": "Segment 4",
+      "DefaultTransition": 15,
+      "Transitions": [
+        {
+          "TargetNode": 13,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 99900028,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Type": 35,
+      "DefaultTransition": 14,
+      "Loot": 12992
+    },
+    {
+      "Id": 14,
+      "Type": 36,
+      "DefaultTransition": 12,
+      "Loot": 999990021
+    },
+    {
+      "Id": 15,
+      "Type": 15,
+      "Message": "Segment 5",
+      "DefaultTransition": 19,
+      "Transitions": [
+        {
+          "TargetNode": 17,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 88240,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Type": 35,
+      "DefaultTransition": 18,
+      "Loot": 255002
+    },
+    {
+      "Id": 18,
+      "Type": 36,
+      "DefaultTransition": 15,
+      "Loot": 942914
+    },
+    {
+      "Id": 19,
+      "Type": 15,
+      "Message": "Segment 6",
+      "DefaultTransition": 24,
+      "Transitions": [
+        {
+          "TargetNode": 20,
+          "Requirement": {
+            "Type": 2,
+            "Requirements": [
+              {
+                "Type": 25,
+                "ItemId": 125255,
+                "MinValue": 1
+              },
+              {
+                "Type": 25,
+                "ItemId": 22552,
+                "MinValue": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Type": 36,
+      "DefaultTransition": 21,
+      "Loot": 12992
+    },
+    {
+      "Id": 21,
+      "Type": 36,
+      "DefaultTransition": 22,
+      "Loot": 255002
+    },
+    {
+      "Id": 22,
+      "Type": 35,
+      "DefaultTransition": 23,
+      "Loot": 999990021
+    },
+    {
+      "Id": 23,
+      "Type": 35,
+      "DefaultTransition": 19,
+      "Loot": 942914
+    },
+    {
+      "Id": 24,
+      "Type": 15,
+      "Message": "Segment 7",
+      "DefaultTransition": 26,
+      "Transitions": [
+        {
+          "TargetNode": 25,
+          "Requirement": {
+            "Type": 2,
+            "Requirements": [
+              {
+                "Type": 25,
+                "ItemId": 22552,
+                "MinValue": 1
+              },
+              {
+                "Type": 3,
+                "Requirements": [
+                  {
+                    "Type": 25,
+                    "ItemId": 125255,
+                    "MinValue": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Type": 35,
+      "DefaultTransition": 26,
+      "Loot": 66777
+    },
+    {
+      "Id": 26,
+      "Type": 15,
+      "Message": "Segment 8",
+      "DefaultTransition": 29,
+      "Transitions": [
+        {
+          "TargetNode": 27,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 22552,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "Type": 35,
+      "DefaultTransition": 28,
+      "Loot": 999990021
+    },
+    {
+      "Id": 28,
+      "Type": 36,
+      "DefaultTransition": 26,
+      "Loot": 12992
+    },
+    {
+      "Id": 29,
+      "Type": 15,
+      "Message": "Segment 9",
+      "DefaultTransition": 32,
+      "Transitions": [
+        {
+          "TargetNode": 30,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 125255,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 30,
+      "Type": 35,
+      "DefaultTransition": 31,
+      "Loot": 942914
+    },
+    {
+      "Id": 31,
+      "Type": 36,
+      "DefaultTransition": 29,
+      "Loot": 255002
+    },
+    {
+      "Id": 32,
+      "Type": 35,
+      "DefaultTransition": 33,
+      "Loot": 999000822
+    },
+    {
+      "Id": 33,
+      "Type": 15,
+      "Message": "Segment 10",
+      "DefaultTransition": 37,
+      "Transitions": [
+        {
+          "TargetNode": 34,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 99900028,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 34,
+      "Type": 36,
+      "DefaultTransition": 35,
+      "Loot": 999990021
+    },
+    {
+      "Id": 35,
+      "Type": 35,
+      "DefaultTransition": 36,
+      "Loot": 1285152
+    },
+    {
+      "Id": 36,
+      "Type": 35,
+      "DefaultTransition": 33,
+      "Loot": 125915
+    },
+    {
+      "Id": 37,
+      "Type": 15,
+      "Message": "Segment 11",
+      "DefaultTransition": 40,
+      "Transitions": [
+        {
+          "TargetNode": 38,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 215125,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 38,
+      "Type": 35,
+      "DefaultTransition": 39,
+      "Loot": 999990021
+    },
+    {
+      "Id": 39,
+      "Type": 36,
+      "DefaultTransition": 37,
+      "Loot": 1285152
+    },
+    {
+      "Id": 40,
+      "Type": 15,
+      "Message": "Segment 12",
+      "DefaultTransition": 11,
+      "Transitions": [
+        {
+          "TargetNode": 41,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 1259125,
+            "MinValue": 1
+          }
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "Type": 36,
+      "DefaultTransition": 42,
+      "Loot": 125915
+    },
+    {
+      "Id": 42,
+      "Type": 36,
+      "DefaultTransition": 40,
+      "Loot": 942914
+    },
+    {
+      "Id": 600,
+      "Type": 36,
+      "DefaultTransition": 601,
+      "Loot": 992245
+    },
+    {
+      "Id": 601,
+      "Type": 36,
+      "DefaultTransition": 602,
+      "Loot": 244496
+    },
+    {
+      "Id": 602,
+      "Type": 36,
+      "DefaultTransition": 603,
+      "Loot": 2952202
+    },
+    {
+      "Id": 603,
+      "Type": 36,
+      "DefaultTransition": 604,
+      "Loot": 1250259
+    },
+    {
+      "Id": 604,
+      "Type": 36,
+      "DefaultTransition": 605,
+      "Loot": 21515
+    },
+    {
+      "Id": 605,
+      "Type": 36,
+      "DefaultTransition": 606,
+      "Loot": 9244
+    },
+    {
+      "Id": 120,
+      "Type": 35,
+      "DefaultTransition": 12,
+      "Loot": 125125
+    },
+    {
+      "Id": 1,
+      "Type": 36,
+      "DefaultTransition": 101,
+      "Loot": 25002
+    },
+    {
+      "Id": 101,
+      "Type": 36,
+      "DefaultTransition": 100,
+      "Loot": 9244
+    },
+    {
+      "Id": 606,
+      "Type": 40
+    }
+  ]
+}

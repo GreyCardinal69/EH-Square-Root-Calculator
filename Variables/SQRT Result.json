@@ -1,0 +1,9 @@
+{
+  "ItemType": 20,
+  "Id": 99214,
+  "Name": "Calculated Square Root",
+  "Description": "The whole calculated square root of the given number given in the amount of this item in cargo. Mantis given as the remainder item in cargo.",
+  "Icon": "retreat_icon.png",
+  "Color": "#00FFFF",
+  "Price": 444
+}

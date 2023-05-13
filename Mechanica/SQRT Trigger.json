@@ -1,0 +1,133 @@
+{
+  "ItemType": 15,
+  "Id": 1284249,
+  "Name": "Calculator",
+  "QuestType": 1,
+  "StartCondition": 3,
+  "Weight": 1000.0,
+  "Requirement": {
+    "Type": 3,
+    "Requirements": [
+      {
+        "Type": 10,
+        "ItemId": 9992224
+      }
+    ]
+  },
+  "Nodes": [
+    {
+      "Id": 1,
+      "Type": 10,
+      "Message": "Calculate number?",
+      "Actions": [
+        {
+          "TargetNode": 3,
+          "Requirement": {
+            "Type": 25,
+            "ItemId": 9990202,
+            "MinValue": 1
+          },
+          "ButtonText": "Yes."
+        },
+        {
+          "TargetNode": 5,
+          "ButtonText": "Clear Number To Calculate."
+        },
+        {
+          "TargetNode": 6,
+          "ButtonText": "Custom Number."
+        },
+        {
+          "TargetNode": 4,
+          "Requirement": {
+            "Type": 3,
+            "Requirements": [
+              {
+                "Type": 27,
+                "ItemId": 12350003
+              }
+            ]
+          },
+          "ButtonText": "Receive Premade Number To Calculate."
+        },
+        {
+          "TargetNode": 2,
+          "ButtonText": "Exit."
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Type": 40
+    },
+    {
+      "Id": 3,
+      "Type": 43,
+      "DefaultTransition": 2,
+      "Quest": 9992224
+    },
+    {
+      "Id": 4,
+      "Type": 35,
+      "DefaultTransition": 1,
+      "Loot": 8899942
+    },
+    {
+      "Id": 5,
+      "Type": 36,
+      "DefaultTransition": 1,
+      "Loot": 99924
+    },
+    {
+      "Id": 6,
+      "Type": 10,
+      "Message": "How much to add?",
+      "Actions": [
+        {
+          "TargetNode": 7,
+          "ButtonText": "Add +1."
+        },
+        {
+          "TargetNode": 8,
+          "ButtonText": "Add +10."
+        },
+        {
+          "TargetNode": 9,
+          "ButtonText": "Add +100."
+        },
+        {
+          "TargetNode": 10,
+          "ButtonText": "Add +1000."
+        },
+        {
+          "TargetNode": 1,
+          "ButtonText": "Go Back"
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Type": 35,
+      "DefaultTransition": 6,
+      "Loot": 12350003
+    },
+    {
+      "Id": 8,
+      "Type": 35,
+      "DefaultTransition": 6,
+      "Loot": 77700052
+    },
+    {
+      "Id": 9,
+      "Type": 35,
+      "DefaultTransition": 6,
+      "Loot": 77700066
+    },
+    {
+      "Id": 10,
+      "Type": 35,
+      "DefaultTransition": 6,
+      "Loot": 77700069
+    }
+  ]
+}
