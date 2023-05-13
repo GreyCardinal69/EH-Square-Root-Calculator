@@ -15,6 +15,11 @@ The following is the pseudo code of the calculator ( covers most of how it works
 var substr = 0;
 var remainder;
 
+var temp1;
+var temp2;
+var temp3;
+var temp4;
+
 bool substr_larger;
 
 remainder -= 1;
